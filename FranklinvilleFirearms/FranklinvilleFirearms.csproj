@@ -111,6 +111,7 @@
     <Content Include="assets\img\testimonials\testimonials-4.jpg" />
     <Content Include="assets\img\testimonials\testimonials-5.jpg" />
     <Content Include="assets\img\why-us.jpg" />
+    <Content Include="concealed.html" />
     <Content Include="Content\animations.css" />
     <Content Include="Content\aos.css" />
     <Content Include="Content\bootstrap.css" />
@@ -143,9 +144,12 @@
     <Content Include="Images\GunManufactures\winchester.png" />
     <Content Include="index.html" />
     <Content Include="inner-page.html" />
+    <Content Include="roadrage.html" />
     <Content Include="Scripts\aos.js" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
+    <Content Include="Scripts\get-events.php" />
+    <Content Include="Scripts\get-time-zones.php" />
     <Content Include="Scripts\isotope.pkgd.js" />
     <Content Include="Scripts\isotope.pkgd.min.js" />
     <Content Include="Scripts\jquery.easing.min.js" />
@@ -155,6 +159,8 @@
     <Content Include="Scripts\main.min.js" />
     <Content Include="Scripts\owl.carousel.js" />
     <Content Include="Scripts\owl.carousel.min.js" />
+    <Content Include="Scripts\theme-chooser.js" />
+    <Content Include="Scripts\utils.php" />
     <Content Include="Scripts\validate.js" />
     <Content Include="Scripts\venobox.js" />
     <Content Include="Scripts\venobox.min.js" />
@@ -171,6 +177,7 @@
     <Content Include="fonts\boxicons.woff" />
     <Content Include="fonts\boxicons.woff2" />
     <None Include="packages.config" />
+    <Content Include="Scripts\events.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

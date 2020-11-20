@@ -42,6 +42,28 @@
     * Author: BootstrapMade.com
     * License: https://bootstrapmade.com/license/
     ======================================================== -->
+
+    <style>
+
+        body {
+            margin: 40px 10px;
+            padding: 0;
+            font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+            font-size: 14px;
+        }
+
+        #loading {
+            display: none;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+
+        #calendar {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+    </style>
 </head>
 
 <body>
@@ -148,6 +170,8 @@
                     <p>Magnam dolores commodi suscipit eius consequatur ex aliquid fuga eum quidem</p>
                 </div>
 
+
+
                 <div class="row">
                     <div class="col-lg-6 order-2 order-lg-1">
                         <div class="icon-box mt-5 mt-lg-0" data-aos="fade-up">
@@ -179,166 +203,62 @@
         <!-- ======= Featured Section ======= -->
         <section id="featured" class="featured">
             <div class="container">
-
-                <div class="row">
-                    <div class="col-lg-6" data-aos="fade-right">
-                        <div class="tab-content">
-                            <div class="tab-pane active show" id="tab-1">
-                                <figure>
-                                    <img src="assets/img/featured-1.png" alt="" class="img-fluid">
-                                </figure>
-                            </div>
-                            <div class="tab-pane" id="tab-2">
-                                <figure>
-                                    <img src="assets/img/featured-2.png" alt="" class="img-fluid">
-                                </figure>
-                            </div>
-                            <div class="tab-pane" id="tab-3">
-                                <figure>
-                                    <img src="assets/img/featured-3.png" alt="" class="img-fluid">
-                                </figure>
-                            </div>
-                            <div class="tab-pane" id="tab-4">
-                                <figure>
-                                    <img src="assets/img/featured-4.png" alt="" class="img-fluid">
-                                </figure>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 mt-4 mt-lg-0" data-aos="fade-left">
-                        <ul class="nav nav-tabs flex-column">
-                            <li class="nav-item">
-                                <a class="nav-link active show" data-toggle="tab" href="#tab-1">
-                                    <h4>Modi sit est</h4>
-                                    <p>Quis excepturi porro totam sint earum quo nulla perspiciatis eius.</p>
-                                </a>
-                            </li>
-                            <li class="nav-item mt-2">
-                                <a class="nav-link" data-toggle="tab" href="#tab-2">
-                                    <h4>Unde praesentium sed</h4>
-                                    <p>Voluptas vel esse repudiandae quo excepturi.</p>
-                                </a>
-                            </li>
-                            <li class="nav-item mt-2">
-                                <a class="nav-link" data-toggle="tab" href="#tab-3">
-                                    <h4>Pariatur explicabo vel</h4>
-                                    <p>Velit veniam ipsa sit nihil blanditiis mollitia natus.</p>
-                                </a>
-                            </li>
-                            <li class="nav-item mt-2">
-                                <a class="nav-link" data-toggle="tab" href="#tab-4">
-                                    <h4>Nostrum qui quasi</h4>
-                                    <p>Ratione hic sapiente nostrum doloremque illum nulla praesentium id</p>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+                <div class="section-title" data-aos="fade-up">
+                    <h2>Schedule</h2>
+                    <p>Look through the calendar for the best date that suits you.</p>
                 </div>
+                <div id='loading'>loading...</div>
+
+                <div id='calendar'></div>
+
 
             </div>
-        </section><!-- End Featured Section -->
-        <!-- ======= Why Us Section ======= -->
-        <section id="why-us" class="why-us">
-            <div class="container-fluid">
-
-                <div class="row">
-
-                    <div class="col-lg-7 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-stretch">
-
-                        <div class="content" data-aos="fade-up">
-                            <h3>Eum ipsam laborum deleniti <strong>velit pariatur architecto aut nihil</strong></h3>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
-                            </p>
-                        </div>
-
-                        <div class="accordion-list">
-                            <ul>
-                                <li data-aos="fade-up" data-aos-delay="100">
-                                    <a data-toggle="collapse" class="collapse" href="#accordion-list-1"><span>01</span> Non consectetur a erat nam at lectus urna duis? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                                    <div id="accordion-list-1" class="collapse show" data-parent=".accordion-list">
-                                        <p>
-                                            Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
-                                        </p>
-                                    </div>
-                                </li>
-
-                                <li data-aos="fade-up" data-aos-delay="200">
-                                    <a data-toggle="collapse" href="#accordion-list-2" class="collapsed"><span>02</span> Feugiat scelerisque varius morbi enim nunc? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                                    <div id="accordion-list-2" class="collapse" data-parent=".accordion-list">
-                                        <p>
-                                            Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
-                                        </p>
-                                    </div>
-                                </li>
-
-                                <li data-aos="fade-up" data-aos-delay="300">
-                                    <a data-toggle="collapse" href="#accordion-list-3" class="collapsed"><span>03</span> Dolor sit amet consectetur adipiscing elit? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                                    <div id="accordion-list-3" class="collapse" data-parent=".accordion-list">
-                                        <p>
-                                            Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
-                                        </p>
-                                    </div>
-                                </li>
-
-                            </ul>
-                        </div>
-
-                    </div>
-
-                    <div class="col-lg-5 order-1 order-lg-2 align-items-stretch video-box" style='background-image: url("assets/img/why-us.jpg");' data-aos="zoom-in">
-                        <a href="https://www.youtube.com/watch?v=LIqQNG_q2us" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
-                    </div>
-
-                </div>
-
-            </div>
-        </section><!-- End Why Us Section -->
+        </section>
+        <!-- End Featured Section -->
         <!-- ======= Portfolio Section ======= -->
         <section id="portfolio" class="portfolio">
             <div class="container">
 
                 <div class="section-title" data-aos="fade-up">
-                    <h2>Portfolio</h2>
-                    <p>Magnam dolores commodi suscipit eius consequatur ex aliquid fuga eum quidem</p>
+                    <h2>Class Photos</h2>
+                    <p>Take a look at the photos to get an idea of how the class is.</p>
                 </div>
 
                 <div class="row" data-aos="fade-up" data-aos-delay="100">
                     <div class="col-lg-12 d-flex justify-content-center">
                         <ul id="portfolio-flters">
                             <li data-filter="*" class="filter-active">All</li>
-                            <li data-filter=".filter-app">App</li>
-                            <li data-filter=".filter-card">Card</li>
-                            <li data-filter=".filter-web">Web</li>
+                            <li data-filter=".filter-app">Concealed Carry</li>
+                            <li data-filter=".filter-card">Surviving Road Rage</li>
                         </ul>
                     </div>
                 </div>
-
+                <!--------------------------filter-app = Conceal Carry Photo Group/ filter-card = Surviving Road Rage Group--------------------------->
                 <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                         <div class="portfolio-wrap">
                             <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>App 1</h4>
-                                <p>App</p>
+                                <h4>Concealed Carry</h4>
+                                <p>MM/dd/yyyy</p>
                                 <div class="portfolio-links">
-                                    <a href="assets/img/portfolio/portfolio-1.jpg" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="bx bx-plus"></i></a>
-                                    <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                                    <a href="assets/img/portfolio/portfolio-1.jpg" data-gall="portfolioGallery" class="venobox"><i class="bx bx-plus"></i></a>
+                                    <a href="concealed.html" title="More Details"><i class="bx bx-link"></i></a>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
                         <div class="portfolio-wrap">
                             <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>Web 3</h4>
-                                <p>Web</p>
+                                <h4>Surviving Road Rage</h4>
+                                <p>MM/dd/yyyy</p>
                                 <div class="portfolio-links">
-                                    <a href="assets/img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
-                                    <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                                    <a href="assets/img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery" class="venobox"><i class="bx bx-plus"></i></a>
+
                                 </div>
                             </div>
                         </div>
@@ -348,11 +268,11 @@
                         <div class="portfolio-wrap">
                             <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>App 2</h4>
-                                <p>App</p>
+                                <h4>Concealed Carry</h4>
+                                <p>MM/dd/yyyy</p>
                                 <div class="portfolio-links">
-                                    <a href="assets/img/portfolio/portfolio-3.jpg" data-gall="portfolioGallery" class="venobox" title="App 2"><i class="bx bx-plus"></i></a>
-                                    <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                                    <a href="assets/img/portfolio/portfolio-3.jpg" data-gall="portfolioGallery" class="venobox"><i class="bx bx-plus"></i></a>
+
                                 </div>
                             </div>
                         </div>
@@ -362,25 +282,25 @@
                         <div class="portfolio-wrap">
                             <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>Card 2</h4>
-                                <p>Card</p>
+                                <h4>Surviving Road Rage</h4>
+                                <p>MM/dd/yyyy</p>
                                 <div class="portfolio-links">
-                                    <a href="assets/img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery" class="venobox" title="Card 2"><i class="bx bx-plus"></i></a>
-                                    <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                                    <a href="assets/img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery" class="venobox"><i class="bx bx-plus"></i></a>
+
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                         <div class="portfolio-wrap">
                             <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>Web 2</h4>
-                                <p>Web</p>
+                                <h4>Concealed Carry</h4>
+                                <p>MM/dd/yyyy</p>
                                 <div class="portfolio-links">
-                                    <a href="assets/img/portfolio/portfolio-5.jpg" data-gall="portfolioGallery" class="venobox" title="Web 2"><i class="bx bx-plus"></i></a>
-                                    <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                                    <a href="assets/img/portfolio/portfolio-5.jpg" data-gall="portfolioGallery" class="venobox"><i class="bx bx-plus"></i></a>
+
                                 </div>
                             </div>
                         </div>
@@ -390,25 +310,25 @@
                         <div class="portfolio-wrap">
                             <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>App 3</h4>
-                                <p>App</p>
+                                <h4>Concealed Carry</h4>
+                                <p>MM/dd/yyyy</p>
                                 <div class="portfolio-links">
-                                    <a href="assets/img/portfolio/portfolio-6.jpg" data-gall="portfolioGallery" class="venobox" title="App 3"><i class="bx bx-plus"></i></a>
-                                    <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                                    <a href="assets/img/portfolio/portfolio-6.jpg" data-gall="portfolioGallery" class="venobox"><i class="bx bx-plus"></i></a>
+
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                         <div class="portfolio-wrap">
                             <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>Card 1</h4>
-                                <p>Card</p>
+                                <h4>Concealed Carry</h4>
+                                <p>MM/dd/yyyy</p>
                                 <div class="portfolio-links">
-                                    <a href="assets/img/portfolio/portfolio-7.jpg" data-gall="portfolioGallery" class="venobox" title="Card 1"><i class="bx bx-plus"></i></a>
-                                    <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                                    <a href="assets/img/portfolio/portfolio-7.jpg" data-gall="portfolioGallery" class="venobox"><i class="bx bx-plus"></i></a>
+
                                 </div>
                             </div>
                         </div>
@@ -418,25 +338,25 @@
                         <div class="portfolio-wrap">
                             <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>Card 3</h4>
-                                <p>Card</p>
+                                <h4>Surviving Road Rage</h4>
+                                <p>MM/dd/yyyy</p>
                                 <div class="portfolio-links">
-                                    <a href="assets/img/portfolio/portfolio-8.jpg" data-gall="portfolioGallery" class="venobox" title="Card 3"><i class="bx bx-plus"></i></a>
-                                    <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                                    <a href="assets/img/portfolio/portfolio-8.jpg" data-gall="portfolioGallery" class="venobox"><i class="bx bx-plus"></i></a>
+
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
                         <div class="portfolio-wrap">
                             <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>Web 3</h4>
-                                <p>Web</p>
+                                <h4>Surviving Road Rage</h4>
+                                <p>MM/dd/yyyy</p>
                                 <div class="portfolio-links">
-                                    <a href="assets/img/portfolio/portfolio-9.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
-                                    <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                                    <a href="assets/img/portfolio/portfolio-9.jpg" data-gall="portfolioGallery" class="venobox"><i class="bx bx-plus"></i></a>
+
                                 </div>
                             </div>
                         </div>
@@ -534,7 +454,7 @@
                     </div>
 
                     <div class="col-lg-2 col-md-4 col-6" data-aos="zoom-in" data-aos-delay="500">
-                        <img src="Images/GunManufactures/Walther.png" style="height:90px; width:100px" class="img-fluid" alt="">
+                        <img src="Images/GunManufactures/Walther.png" style="height:70px; width:100px" class="img-fluid" alt="">
                     </div>
 
                     <div class="col-lg-2 col-md-4 col-6" data-aos="zoom-in" data-aos-delay="500">
@@ -550,7 +470,7 @@
                     </div>
 
                     <div class="col-lg-2 col-md-4 col-6" data-aos="zoom-in" data-aos-delay="500">
-                        <img src="Images/GunManufactures/mossberg.png" style="height:100px; width:100px" class="img-fluid" alt="">
+                        <img src="Images/GunManufactures/mossberg.png" style="height:80px; width:100px" class="img-fluid" alt="">
                     </div>
 
                     <div class="col-lg-2 col-md-4 col-6" data-aos="zoom-in" data-aos-delay="500">
@@ -572,7 +492,7 @@
 
                 <div class="row">
 
-                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                    <div class="col-lg-6 col-md-6 d-flex align-items-stretch">
                         <div class="member" data-aos="zoom-in">
                             <div class="member-img">
                                 <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
@@ -584,14 +504,14 @@
                                 </div>
                             </div>
                             <div class="member-info">
-                                <h4>Walter White</h4>
-                                <span>Chief Executive Officer</span>
+                                <h4>Christopher Alexander</h4>
+                                <span>Owner</span>
                                 <p>Animi est delectus alias quam repellendus nihil nobis dolor. Est sapiente occaecati et dolore. Omnis aut ut nesciunt explicabo qui. Eius nam deleniti ut omnis</p>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                    <div class="col-lg-6 col-md-6 d-flex align-items-stretch">
                         <div class="member" data-aos="zoom-in" data-aos-delay="100">
                             <div class="member-img">
                                 <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
@@ -603,32 +523,12 @@
                                 </div>
                             </div>
                             <div class="member-info">
-                                <h4>Sarah Jhonson</h4>
-                                <span>Product Manager</span>
+                                <h4>Bonnie Alexander</h4>
+                                <span>Co-Owner</span>
                                 <p>Aspernatur iste esse aliquam enim et corporis. Molestiae voluptatem aut eligendi quis aut. Libero vel amet voluptatem eos rerum non doloremque</p>
                             </div>
                         </div>
                     </div>
-
-                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-                        <div class="member" data-aos="zoom-in" data-aos-delay="200">
-                            <div class="member-img">
-                                <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
-                                <div class="social">
-                                    <a href=""><i class="icofont-twitter"></i></a>
-                                    <a href=""><i class="icofont-facebook"></i></a>
-                                    <a href=""><i class="icofont-instagram"></i></a>
-                                    <a href=""><i class="icofont-linkedin"></i></a>
-                                </div>
-                            </div>
-                            <div class="member-info">
-                                <h4>William Anderson</h4>
-                                <span>CTO</span>
-                                <p>Ut enim possimus nihil cupiditate beatae. Veniam facere quae non qui necessitatibus rerum eos vero. Maxime sit sunt quo dolor autem est qui quaerat</p>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
 
             </div>
@@ -639,62 +539,64 @@
 
                 <div class="section-title" data-aos="fade-up">
                     <h2>Pricing</h2>
-                    <p>Magnam dolores commodi suscipit eius consequatur ex aliquid fuga eum quidem</p>
+                    <p></p>
                 </div>
 
                 <div class="row">
 
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-6 col-md-6">
                         <div class="box" data-aos="zoom-in" data-aos-delay="100">
-                            <h3>Free</h3>
-                            <h4><sup>$</sup>0<span> / month</span></h4>
+                            <h3>Surviving Road Rage Class</h3>
+                            <h4><sup>$</sup>0</h4>
                             <ul>
-                                <li>Aida dere</li>
-                                <li>Nec feugiat nisl</li>
-                                <li>Nulla at volutpat dola</li>
-                                <li class="na">Pharetra massa</li>
-                                <li class="na">Massa ultricies mi</li>
+                                <li>*plus 4 cans of good for donations to "Feeding Locals First" food bank.</li>
+                                <li>*Extended Training Class*</li>
+                                <li>Completely FREE class revolving around surviving road rage.</li>
+                                <li>Student must bring their own ammo.</li>
+                                <li>NO PERMIT IS REQUIRED</li>
                             </ul>
+
                             <div class="btn-wrap">
-                                <a href="#" class="btn-buy">Buy Now</a>
+                                <button data-toggle="modal" data-target="#roadModal" class="btn-buy">Sign Up Now</button>
+
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
+                    <div class="col-lg-6 col-md-6 mt-4 mt-md-0">
                         <div class="box recommended" data-aos="zoom-in">
                             <span class="recommended-badge">Recommended</span>
-                            <h3>Business</h3>
-                            <h4><sup>$</sup>19<span> / month</span></h4>
+                            <h3>Carried Concealed Handgun Class</h3>
+                            <h4><sup>$</sup>60<span> / student</span></h4>
                             <ul>
-                                <li>Aida dere</li>
-                                <li>Nec feugiat nisl</li>
-                                <li>Nulla at volutpat dola</li>
-                                <li>Pharetra massa</li>
-                                <li class="na">Massa ultricies mi</li>
+                                <li>*plus 4 cans of good for donations to "Feeding Locals First" food bank.</li>
+                                <li>*Initial Training Class*</li>
+                                <li>Sign up is FREE</li>
+                                <li>Payment due the day of class</li>
+                                <li>The class is "All Inclusive"</li>
                             </ul>
                             <div class="btn-wrap">
-                                <a href="#" class="btn-buy">Buy Now</a>
+                                <button data-toggle="modal" data-target="#concealedModal" class="btn-buy">Sign Up Now</button>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
+                    <!--<div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
                         <div class="box" data-aos="zoom-in" data-aos-delay="100">
-                            <h3>Developer</h3>
-                            <h4><sup>$</sup>29<span> / month</span></h4>
+                            <h3>Carried Concealed Handgun Class</h3>
+                            <h4><sup>$</sup>60<span> / customer</span></h4>
                             <ul>
-                                <li>Aida dere</li>
-                                <li>Nec feugiat nisl</li>
-                                <li>Nulla at volutpat dola</li>
-                                <li>Pharetra massa</li>
-                                <li>Massa ultricies mi</li>
+                                <li>*plus 4 cans of good for donations to "Feeding Locals First" food bank.</li>
+                                <li>*Initial Training Class*</li>
+                                <li>Sign up is FREE</li>
+                                <li>Payment due the day of class</li>
+                                <li>The class is "All Inclusive"</li>
                             </ul>
                             <div class="btn-wrap">
-                                <a href="#" class="btn-buy">Buy Now</a>
+                                <a href="#" class="btn-buy">Sign Up Now</a>
                             </div>
                         </div>
-                    </div>
+                    </div>-->
 
                 </div>
 
@@ -910,6 +812,91 @@
 
     <!-- Template Main JS File -->
     <script src="Scripts/main.js"></script>
+    <script src="Scripts/main.min.js"></script>
+
+    <a href="Scripts/utils.php">Scripts/utils.php</a>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var calendarEl = document.getElementById('calendar');
+
+            var calendar = new FullCalendar.Calendar(calendarEl, {
+
+                headerToolbar: {
+                    left: 'prev,next today',
+                    center: 'title',
+                    right: 'dayGridMonth,listYear'
+                },
+
+                displayEventTime: false, // don't show the time column in list view
+
+                // THIS KEY WON'T WORK IN PRODUCTION!!!
+                // To make your own Google API key, follow the directions here:
+                // http://fullcalendar.io/docs/google_calendar/
+                googleCalendarApiKey: 'AIzaSyDcnW6WejpTOCffshGDDb4neIrXVUA1EAE',
+
+                // US Holidays
+                events: 'en.usa#holiday@group.v.calendar.google.com',
+
+                eventClick: function (arg) {
+                    // opens events in a popup window
+                    window.open(arg.event.url, 'google-calendar-event', 'width=700,height=600');
+
+                    arg.jsEvent.preventDefault() // don't navigate in main tab
+                },
+
+                loading: function (bool) {
+                    document.getElementById('loading').style.display =
+                        bool ? 'block' : 'none';
+                }
+
+            });
+
+            calendar.render();
+        });
+    </script>
+
+
+    <!-- Modal -->
+    <div id="roadModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Modal Header</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Some text in the modal.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="concealedModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Modal Header</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Some text in the modal.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
 
 </body>
 
