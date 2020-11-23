@@ -75,6 +75,13 @@
             <h1 data-aos="zoom-in" style="color:black">Welcome To Franklinville Firearms LLC</h1>
             <h2 data-aos="fade-up">The best carried concealed class around!</h2>
             <a data-aos="fade-up" href="#about" class="btn-get-started scrollto">Get Started</a>
+
+            <br />
+            <br />
+            <br />
+            <br />
+         
+       
         </div>
     </section><!-- End Hero -->
     <!-- ======= Header ======= -->
@@ -90,7 +97,7 @@
                 <ul class="nav-inner">
                     <li class="active"><a href="index.html">Home</a></li>
                     <li class="drop-down">
-                        <a>About <i class="fas fa-arrow-alt-circle-down"></i></a>
+                        <a>About <i class="fas fa-bars"></i></a>
                         <ul>
                             <li><a href="#about">About Us</a></li>
                             <li><a href="#team">Team</a></li>
@@ -209,7 +216,7 @@
                     <p>Look through the calendar for the best date that suits you.</p>
                 </div>
                 <div id='loading'>loading...</div>
-              
+
                 <div id='calendar'></div>
 
 
@@ -283,11 +290,9 @@
                         <div class="portfolio-wrap">
                             <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>Concealed Carry Photos</h4>
                                 <div class="portfolio-links">
-                                    <a href="concealed.html" title="More Details"><i class="bx bx-link"></i></a>
+                                    <h4><a href="concealed.html" title="More Details">Concealed Carry Photos</a></h4>
                                 </div>
-                                
                             </div>
                         </div>
                     </div>
@@ -296,9 +301,8 @@
                         <div class="portfolio-wrap">
                             <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>Surviving Road Rage Photos</h4>
                                 <div class="portfolio-links">
-                                    <a href="roadrage.html" title="More Details"><i class="bx bx-link"></i></a>
+                                    <h4><a href="roadrage.html" title="More Details">Surviving Road Rage Photos</a></h4>
                                 </div>
                             </div>
                         </div>
@@ -500,10 +504,10 @@
                         <a data-toggle="collapse" href="#faq2" class="collapsed">Will there be any limitations regarding when and where a person who has the enhanced training may carry a concealed handgun? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
                         <div id="faq2" class="collapse" data-parent=".faq-list">
                             <p>
-                                Yes. The new laws prohibit an individual from carrying a handgun into grievance and disciplinary meetings conducted in accordance with 
-                                university procedures and lasting no more than 9 hours provided 
-                                (a) the meeting is held in a room that is “no larger than necessary to complete the meeting;” 
-                                (b) the individual is given at least 24 hours notice of the meeting; and 
+                                Yes. The new laws prohibit an individual from carrying a handgun into grievance and disciplinary meetings conducted in accordance with
+                                university procedures and lasting no more than 9 hours provided
+                                (a) the meeting is held in a room that is “no larger than necessary to complete the meeting;”
+                                (b) the individual is given at least 24 hours notice of the meeting; and
                                 (c) a notice is posted on the door in which the meeting is being held that possession of a handgun is prohibited.
                             </p>
                         </div>
@@ -685,7 +689,7 @@
     <!-- Template Main JS File -->
     <script src="Scripts/main.js"></script>
     <script src="Scripts/main.min.js"></script>
-   
+
 
 
     <script>
@@ -709,11 +713,11 @@
 
                 // US Holidays
                 events: 'en.usa#holiday@group.v.calendar.google.com',
-                
+
                 eventClick: function (arg) {
                     // opens events in a popup window
                     window.open(arg.event.url, 'google-calendar-event', 'width=700,height=600');
-                    
+
                     arg.jsEvent.preventDefault() // don't navigate in main tab
                 },
 
@@ -721,44 +725,44 @@
                     document.getElementById('loading').style.display =
                         bool ? 'block' : 'none';
                 },
-                
+
                 navLinks: true, // can click day/week names to navigate views
                 editable: true,
                 selectable: true,
                 nowIndicator: true,
                 dayMaxEvents: true, // allow "more" link when too many events
-          // showNonCurrentDates: false,
+                // showNonCurrentDates: false,
 
-               events: [
-                   {
-                       title: '8am-5pm',
-                       start: '2021-01-03',
-                   },
+                events: [
+                    {
+                        title: '8am-5pm',
+                        start: '2021-01-03',
+                    },
                     {
                         title: 'Concealed Carry Class',
-                       start: '2021-01-03',
-                   },
+                        start: '2021-01-03',
+                    },
 
-                   {
-                       title: '8am-5pm',
-                       start: '2021-01-16',
-                   },
-                   {
-                       title: 'Concealed Carry Class',
-                       start: '2021-01-16',
-                       
-                   },
-                 
+                    {
+                        title: '8am-5pm',
+                        start: '2021-01-16',
+                    },
+                    {
+                        title: 'Concealed Carry Class',
+                        start: '2021-01-16',
+
+                    },
+
 
                 ]
-          
+
             });
 
             calendar.render();
         });
 
 
-     
+
     </script>
 
 
