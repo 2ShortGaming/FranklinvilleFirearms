@@ -17,10 +17,10 @@ a {
   color: #354cb9;
 }
 
-a:hover {
-  color: #9ed49a;
-  text-decoration: none;
-}
+    a:hover {
+        color: #9fb3d7;
+        text-decoration: none;
+    }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", sans-serif;
@@ -1293,9 +1293,9 @@ section {
   color: #343a40;
 }
 
-.faq .faq-list a.collapsed:hover {
-  color: #354cb9;
-}
+    .faq .faq-list a.collapsed:hover {
+        color: #343a40;
+    }
 
 .faq .faq-list a.collapsed .icon-show {
   display: inline-block;
