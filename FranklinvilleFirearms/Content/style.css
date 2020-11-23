@@ -1073,17 +1073,18 @@ section {
   border-radius: 5px;
 }
 
-.team .member .social {
-  position: absolute;
-  left: 0;
-  bottom: -40px;
-  right: 0;
-  height: 40px;
-  opacity: 0;
-  transition: bottom ease-in-out 0.4s;
-  text-align: center;
-  background: rgba(124, 197, 118, 0.8);
-}
+    .team .member .social {
+        position: absolute;
+        left: 0;
+        bottom: -40px;
+        right: 0;
+        height: 40px;
+        opacity: 0;
+        transition: bottom ease-in-out 0.4s;
+        text-align: center;
+        background: rgba(159, 179, 215, 0.74);
+        
+    }
 
 .team .member .social a {
   transition: color 0.3s;
