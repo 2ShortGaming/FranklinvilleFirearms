@@ -149,8 +149,6 @@
     <Content Include="Scripts\aos.js" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
-    <Content Include="Scripts\get-events.php" />
-    <Content Include="Scripts\get-time-zones.php" />
     <Content Include="Scripts\isotope.pkgd.js" />
     <Content Include="Scripts\isotope.pkgd.min.js" />
     <Content Include="Scripts\jquery.easing.min.js" />
@@ -176,7 +174,6 @@
     <Content Include="fonts\boxicons.woff" />
     <Content Include="fonts\boxicons.woff2" />
     <None Include="packages.config" />
-    <Content Include="Scripts\events.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

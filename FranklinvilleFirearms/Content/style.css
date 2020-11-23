@@ -1697,11 +1697,11 @@ section {
   transition: 0.3s;
 }
 
-#footer .footer-top .social-links a:hover {
-  background: #5ab652;
-  color: #fff;
-  text-decoration: none;
-}
+    #footer .footer-top .social-links a:hover {
+        background: #9fb3d7;
+        color: #fff;
+        text-decoration: none;
+    }
 
 #footer .footer-bottom {
   border-top: 1px solid #222222;
