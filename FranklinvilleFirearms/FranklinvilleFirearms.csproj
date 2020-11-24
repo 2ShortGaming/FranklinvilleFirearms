@@ -131,6 +131,7 @@
     <Content Include="forms\contact.php" />
     <Content Include="forms\Readme.txt" />
     <Content Include="FranklinvilleFirearms.png" />
+    <Content Include="FranklinvilleFirearmswhite.png" />
     <Content Include="Images\GunManufactures\beretta.png" />
     <Content Include="Images\GunManufactures\colt.png" />
     <Content Include="Images\GunManufactures\glock.png" />
@@ -140,7 +141,7 @@
     <Content Include="Images\GunManufactures\rossi.png" />
     <Content Include="Images\GunManufactures\rsr.png" />
     <Content Include="Images\GunManufactures\sig.png" />
-    <Content Include="Images\GunManufactures\smithwess.png" />
+    <Content Include="Images\GunManufactures\smith-wess.png" />
     <Content Include="Images\GunManufactures\springfield.png" />
     <Content Include="Images\GunManufactures\taurus.png" />
     <Content Include="Images\GunManufactures\Walther.png" />
