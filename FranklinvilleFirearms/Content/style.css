@@ -1229,10 +1229,10 @@ section {
   color: #fff;
 }
 
-.pricing .recommended .btn-buy:hover {
-  background: #61b959;
-  border-color: #61b959;
-}
+    .pricing .recommended .btn-buy:hover {
+        background: #9fb3d7;
+        border-color: #9fb3d7;
+    }
 
 .pricing .recommended-badge {
   position: absolute;

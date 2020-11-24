@@ -118,6 +118,8 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\boxicons.css" />
     <Content Include="Content\boxicons.min.css" />
+    <Content Include="Content\datepicker.css" />
+    <Content Include="Content\datepickermain.css" />
     <Content Include="Content\main.css" />
     <Content Include="Content\owl.carousel.css" />
     <Content Include="Content\owl.carousel.min.css" />
@@ -152,6 +154,9 @@
     <Content Include="Scripts\aos.js" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
+    <Content Include="Scripts\datepicker.en-US.js" />
+    <Content Include="Scripts\datepicker.js" />
+    <Content Include="Scripts\datepickermain.js" />
     <Content Include="Scripts\isotope.pkgd.js" />
     <Content Include="Scripts\isotope.pkgd.min.js" />
     <Content Include="Scripts\jquery.easing.min.js" />
