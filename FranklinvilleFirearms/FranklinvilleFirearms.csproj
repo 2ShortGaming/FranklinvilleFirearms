@@ -134,6 +134,7 @@
     <Content Include="forms\Readme.txt" />
     <Content Include="FranklinvilleFirearms.png" />
     <Content Include="FranklinvilleFirearmswhite.png" />
+    <Content Include="Images\Chris.png" />
     <Content Include="Images\GunManufactures\beretta.png" />
     <Content Include="Images\GunManufactures\colt.png" />
     <Content Include="Images\GunManufactures\glock.png" />
@@ -148,6 +149,7 @@
     <Content Include="Images\GunManufactures\taurus.png" />
     <Content Include="Images\GunManufactures\Walther.png" />
     <Content Include="Images\GunManufactures\winchester.png" />
+    <Content Include="Images\ssr1.jpg" />
     <Content Include="index.html" />
     <Content Include="inner-page.html" />
     <Content Include="roadrage.html" />
@@ -189,7 +191,9 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Images\ClassPhotos\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
