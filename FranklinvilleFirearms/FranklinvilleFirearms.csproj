@@ -150,6 +150,10 @@
     <Content Include="Images\GunManufactures\Walther.png" />
     <Content Include="Images\GunManufactures\winchester.png" />
     <Content Include="Images\ssr1.jpg" />
+    <Content Include="Images\Testimonials\test1.jpg" />
+    <Content Include="Images\Testimonials\test2.jpg" />
+    <Content Include="Images\Testimonials\test3.jpg" />
+    <Content Include="Images\us1.jpg" />
     <Content Include="index.html" />
     <Content Include="inner-page.html" />
     <Content Include="roadrage.html" />
