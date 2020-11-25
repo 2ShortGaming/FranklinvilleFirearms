@@ -135,6 +135,7 @@
     <Content Include="FranklinvilleFirearms.png" />
     <Content Include="FranklinvilleFirearmswhite.png" />
     <Content Include="Images\Chris.png" />
+    <Content Include="Images\class.jpg" />
     <Content Include="Images\GunManufactures\beretta.png" />
     <Content Include="Images\GunManufactures\colt.png" />
     <Content Include="Images\GunManufactures\glock.png" />
@@ -150,11 +151,11 @@
     <Content Include="Images\GunManufactures\Walther.png" />
     <Content Include="Images\GunManufactures\winchester.png" />
     <Content Include="Images\ssr1.jpg" />
-    <Content Include="Images\ssr2.jpg" />
     <Content Include="Images\Testimonials\test1.jpg" />
     <Content Include="Images\Testimonials\test2.jpg" />
     <Content Include="Images\Testimonials\test3.jpg" />
     <Content Include="Images\Testimonials\test4.jpg" />
+    <Content Include="Images\Testimonials\test5.jpg" />
     <Content Include="Images\us1.jpg" />
     <Content Include="index.html" />
     <Content Include="inner-page.html" />
