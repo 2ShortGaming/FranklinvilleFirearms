@@ -136,6 +136,8 @@
     <Content Include="FranklinvilleFirearmswhite.png" />
     <Content Include="Images\Chris.png" />
     <Content Include="Images\class.jpg" />
+    <Content Include="Images\flag.jpg" />
+    <Content Include="Images\flag1.png" />
     <Content Include="Images\GunManufactures\beretta.png" />
     <Content Include="Images\GunManufactures\colt.png" />
     <Content Include="Images\GunManufactures\glock.png" />
