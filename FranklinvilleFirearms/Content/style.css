@@ -436,7 +436,7 @@ section {
 .about .content h3 {
   font-weight: 600;
   font-size: 26px;
-  color: #aeaeae;
+  color: #fff;
 }
 
 .about .content ul {
@@ -448,7 +448,7 @@ section {
   padding-bottom: 10px;
   display: flex;
   align-items: flex-start;
-  color:#aeaeae;
+  color:#fff;
 }
 
 .about .content ul i {
@@ -1446,9 +1446,9 @@ section {
   border-radius: 4px;
 }
 
-.contact .php-email-form button[type="submit"]:hover {
-  background: #61b959;
-}
+    .contact .php-email-form button[type="submit"]:hover {
+        background: #bd5f5f;
+    }
 
 @-webkit-keyframes animate-loading {
   0% {
