@@ -163,6 +163,7 @@
     <Content Include="Scripts\aos.js" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
+    <Content Include="Scripts\CalendarClassDates.js" />
     <Content Include="Scripts\datepicker.en-US.js" />
     <Content Include="Scripts\datepicker.js" />
     <Content Include="Scripts\datepickermain.js" />
